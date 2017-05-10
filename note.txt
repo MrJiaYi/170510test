@@ -2,3 +2,6 @@ C#基本类型
 
 byte short char int long double float bool
 
+字符串类型
+
+string

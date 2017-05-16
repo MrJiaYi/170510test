@@ -47,17 +47,28 @@ public class helloworld1 : MonoBehaviour {
 //		int num1 = 100;
 //		int num2 = 99;
 
-		bool res = num1 <= num2;
-		bool res2 = num1 < num2;
-		bool res3 = num1 == num2;
-		bool res4 = num1 > num2;
-		bool res5 = num1 >= num2;
+//		bool res = num1 <= num2;
+//		bool res2 = num1 < num2;
+//		bool res3 = num1 == num2;
+//		bool res4 = num1 > num2;
+//		bool res5 = num1 >= num2;
+//
+//		print (res);
+//		print (res2);
+//		print (res3);
+//		print (res4);
+//		print (res5);
 
-		print (res);
-		print (res2);
-		print (res3);
-		print (res4);
-		print (res5);
+//		int i = 0;
+//		for (; i < 100; i++) {
+//			print (i);
+//		}
+
+		int i = 1;
+		while (i<99) {
+			print (i);
+			i++;
+		}
 	}
 	
 	// Update is called once per frame

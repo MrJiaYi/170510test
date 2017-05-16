@@ -66,7 +66,12 @@ public class helloworld1 : MonoBehaviour {
 
 		int i = 1;
 		while (i<99) {
-			print (i);
+			if((i%2)!=0){
+				i++;
+				print (i);
+				//continue;
+			}
+
 			i++;
 		}
 	}

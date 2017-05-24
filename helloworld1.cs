@@ -7,8 +7,13 @@ public class helloworld1 : MonoBehaviour {
 	public int num1 = 100;
 	public int num2 = 99;
 
+	public ScoreGrade sg = ScoreGrade.C;
+
 	// Use this for initialization
 	void Start () {
+
+		#region zhushi
+
 		//print("hello world");
 //		int score = 0;
 //		float score2 = 23.0f;
@@ -64,20 +69,48 @@ public class helloworld1 : MonoBehaviour {
 //			print (i);
 //		}
 
-		int i = 1;
-		while (i<99) {
-			if((i%2)!=0){
-				i++;
-				print (i);
-				//continue;
-			}
-			 
-			i++;
-		}
+//		int i = 1;
+//		while (i<99) {
+//			if((i%2)!=0){
+//				i++;
+//				print (i);
+//				//continue;
+//			}
+//			 
+//			i++;
+//		}
+
+//		int i = 0;
+//		while (i < 100) {
+//			print (i);
+//			i++;
+//		}
+
+		#endregion
+
+
+//
+//		int i = 0;
+//		do {
+//			print (i);
+//			i++;
+//		} while(i < 100);
+
+		print (sg);
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
+}
+
+public enum ScoreGrade{
+	SSS,
+	SS,
+	S,
+	A,
+	B,
+	C
 }

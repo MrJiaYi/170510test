@@ -96,7 +96,12 @@ public class helloworld1 : MonoBehaviour {
 //			i++;
 //		} while(i < 100);
 
-		print (sg);
+		if (sg == ScoreGrade.B) {
+			print ("equal");
+		} else {
+			print ("not equal");
+		}
+
 
 	}
 	
